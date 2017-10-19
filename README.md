@@ -1,7 +1,7 @@
 Composer Library Template
 =========================
 
-[![Build Status](https://travis-ci.org/peternicholls/myfirstlibrary.svg?branch=master)](https://travis-ci.org/peternicholls/myfirstlibrary) [![Coverage Status](https://coveralls.io/repos/github/peternicholls/myfirstlibrary/badge.svg?branch=master)](https://coveralls.io/github/peternicholls/myfirstlibrary?branch=master)
+[![Build Status](https://travis-ci.org/peternicholls/eppalpha.svg?branch=master)](https://travis-ci.org/peternicholls/eppalpha) [![Coverage Status](https://coveralls.io/repos/github/peternicholls/eppalpha/badge.svg?branch=master)](https://coveralls.io/github/peternicholls/eppalpha?branch=master)
 
 If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
 
