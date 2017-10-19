@@ -28,7 +28,7 @@ before_script:
 script:
   - ./vendor/bin/phpunit --coverage-clover ./build/logs/clover.xml
 
-after-success:
+after_success:
   - php vendor/bin/coveralls -v
 
 notifications:
