@@ -1,0 +1,35 @@
+language: php
+
+sudo: false
+
+git:
+  submodules: true
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+
+cache:
+  yarn: true
+  directories:
+    - ~/.composer/cache/files
+    - vendor
+    - node_modules
+
+before_install:
+  - composer self-update --no-interaction
+
+install:
+  - composer install --dev
+
+before_script:
+
+script:
+  - ./vendor/bin/phpunit --coverage-clover ./build/logs/clover.xml
+
+after-success:
+  - php vendor/bin/coveralls -v
+
+notifications:
+    email: false

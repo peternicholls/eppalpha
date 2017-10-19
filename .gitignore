@@ -1,0 +1,24 @@
+#IDE
+.idea/
+*.iml
+
+#macOS
+.DS_Store
+.git
+
+#winOS
+
+
+#yarn
+node_modules/
+yarn.lock
+yarn-error.log
+
+#webpack
+
+
+# Composer
+composer.lock
+vendor/*
+build/
+
