@@ -26,13 +26,4 @@ class YourClass{
    public function method1($param1){
 			return "Hello World";
    }
-
-    public static function go()
-    {
-        if (false) {
-            return true;
-        }
-        return false;
-
-    }
 }

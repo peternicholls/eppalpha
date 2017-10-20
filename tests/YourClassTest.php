@@ -38,8 +38,4 @@ class YourClassTest extends TestCase {
 	unset($var);
   }
 
-    public function testExample()
-    {
-        $result = PeterNicholls\MyFirstLibrary\Example::go();
-    }
 }
