@@ -37,5 +37,9 @@ class YourClassTest extends TestCase {
 	$this->assertTrue($var->method1("hey") == 'Hello World');
 	unset($var);
   }
-  
+
+    public function testExample()
+    {
+        $result = PeterNicholls\MyFirstLibrary\Example::go();
+    }
 }

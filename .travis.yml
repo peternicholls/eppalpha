@@ -9,6 +9,7 @@ php:
   - 7.0
   - 7.1
   - 7.2
+  -hhvm
 
 cache:
   yarn: true
@@ -26,10 +27,7 @@ install:
 before_script:
 
 script:
-  - ./vendor/bin/phpunit --coverage-clover ./build/logs/clover.xml
+  - vendor/bin/phpunit --coverage-clover=coverage.xml
 
 after_success:
-  - php vendor/bin/coveralls -v
-
-notifications:
-    email: false
+  - bash <(curl -s https://codecov.io/bash)
