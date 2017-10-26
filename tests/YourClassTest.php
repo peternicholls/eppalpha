@@ -20,7 +20,7 @@ class YourClassTest extends TestCase {
   *
   */
   public function testIsThereAnySyntaxError(){
-	$var = new PeterNicholls\MyFirstLibrary\YourClass;
+	$var = new PeterNicholls\EPP\YourClass;
 	$this->assertTrue(is_object($var));
 	unset($var);
   }
@@ -33,7 +33,7 @@ class YourClassTest extends TestCase {
   *
   */
   public function testMethod1(){
-	$var = new PeterNicholls\MyFirstLibrary\YourClass;
+	$var = new PeterNicholls\EPP\YourClass;
 	$this->assertTrue($var->method1("hey") == 'Hello World');
 	unset($var);
   }

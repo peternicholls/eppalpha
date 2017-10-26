@@ -1,7 +1,7 @@
 {
-  "name": "myfirstlibrary",
+  "name": "php-epp",
   "version": "1.0.0-alpha1",
-  "description": "This is my first php package",
+  "description": "PHP EPP client",
   "main": "composer.json",
   "repository": "git@github.com:peternicholls/myfirstlibrary.git",
   "author": "Peter Nicholls <nicholls@mac.com>",

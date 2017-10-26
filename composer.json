@@ -1,7 +1,7 @@
 {
-    "name": "peternicholls/myfirstlibrary",
-    "description": "This is my first php package.",
-    "keywords": ["first-package", "composer", "package", "learning"],
+    "name": "peternicholls/EPP",
+    "description": "PHP EPP client.",
+    "keywords": ["epp-client", "composer", "package", "php"],
     "license": "GPL-3.0",
     "authors": [
         {
@@ -19,12 +19,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "PeterNicholls\\MyFirstLibrary\\Test\\": "tests/"
+            "PeterNicholls\\EPP\\Test\\": "tests/"
         }
     },
 	"autoload": {
         "psr-4": {
-            "PeterNicholls\\MyFirstLibrary\\": "src/"
+            "PeterNicholls\\EPP\\": "src/"
         }
     }
 }

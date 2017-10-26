@@ -1,16 +1,18 @@
 <?php
 /**
- *  PhpStorm
+ * FrameInterface
  *
- *  Use this section to define what this class is doing, the PHPDocumentator will use this
- *  to automatically generate an API documentation using this information.
- *
- * @author peternicholls
+ * @package PHP-EPP Client Library
+ * @author Peter Nicholls
  * @date 26/10/2017 22:00
  */
 
 namespace PeterNicholls\EPP;
 
-class FrameInterface {
+/**
+ * Base signature of frame to work with client
+ */
+interface FrameInterface
+{
 
 }

@@ -1,4 +1,4 @@
-<?php namespace PeterNicholls\MyFirstLibrary;
+<?php
 
 /**
 *  A sample class
@@ -8,6 +8,9 @@
 *
 *  @author yourname
 */
+
+namespace PeterNicholls\EPP;
+
 class YourClass{
 
    /**  @var string $m_SampleProperty define here what this variable is for, do this for every instance variable */
